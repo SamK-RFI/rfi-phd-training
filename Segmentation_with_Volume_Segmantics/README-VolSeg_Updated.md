@@ -2,6 +2,8 @@
 
 Development of this package is moving to the Rosalind Franklin Institute. A fork is now available at [https://github.com/rosalindfranklininstitute/volume-segmantics]
 
+New documentation for VolSeg 2.2 (including updated to 2.5D functionality) is currently being finalised and updated. the most up-to-date documentation reguarding this version can be found [here](https://github.com/rosalindfranklininstitute/aiimg_scripts/tree/main)
+
 <h1 align="center">
 Volume Segmantics 
 - summer2024Branch (vers-2.1)
@@ -160,8 +162,7 @@ The settings within this file have comments as to their use next to their specif
 
 The settings within this file have comments as to their use next to their specific component, however, for further clarification for some of the more prominent settings and their possible changes are outlined below;
 
-> - quality;
-> - prediction axis; 
+> - quality; degree of prediction-image analysis and prediction view. Medium is the default, predicting using all 3 axis, however this can be lowered or improved based on the linked GPU capability or required output needs. 
 > - clip_data, data_hdf5_path, cuda_device, downsample and output_size should be kept the same as the saved settings used to train the model you are using to predict. 
 
 ### RFI-developed Workflow and Utility documentation
